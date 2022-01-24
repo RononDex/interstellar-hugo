@@ -3,8 +3,8 @@ license = "MIT"
 licenselink = "https://github.com/RononDex/interstellar-hugo/blob/master/LICENSE"
 description = "Insterstellar is a Box design Personal blog template optimized for astronomy / photography Based on the Persian-Hugo theme using Bootstrap and powered By Hugo. It is very responsive and perfectly fits on any size screen device. Though it is Powered By Hugo so your Blog website will be blazing fast. It ha forestry and netlify support so you can set up your own website less than five minutes and you will get a very easy backend to manage your web site. This theme has 5 ready to use pages they are Elegant design home page, about page, contact page, category page, and privacy policy page. In spite of It is a static theme but we have added a very useful and functional search system in this theme develop by themefisher"
 homepage = "https://github.com/RononDex/interstellar-hugo/"
-demosite = "https://demo.gethugothemes.com/persian/"
-tags = ['landing-page', 'fast', 'light', 'white', 'dark', 'astronomy', 'image-viewer', 'darkmode', 'modern',
+demosite = "https://demo.gethugothemes.com/interstellar-hugo/"
+tags = ['landing-page', 'fast', 'light', 'white', 'dark', 'astronomy', 'openseadragon', 'image-viewer', 'darkmode', 'modern',
 'hugo-templates', 'bootstrap', 'blog', 'responsive', 'clean', 'simple', 'creative', 'contact-form', 'custom-themes',
 'mobile', 'minimalistic', 'pages', 'resume', 'rss', 'portfolio', 'google analytics', 'customizable', 'flexbox', 'presentation', 'product', 'typography']
 features = ['bootstrap','responsive']
