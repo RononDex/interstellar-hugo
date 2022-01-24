@@ -1,0 +1,381 @@
+/* mulish-500 - latin */
+@font-face {
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 500;
+  src: local(''),
+       url('../fonts/mulish-v7-latin-500.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('../fonts/mulish-v7-latin-500.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* mulish-800 - latin */
+@font-face {
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 800;
+  src: local(''),
+       url('../fonts/mulish-v7-latin-800.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('../fonts/mulish-v7-latin-800.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+html,
+body {
+  height: 100%;
+}
+.index-image {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  object-fit: cover;
+  object-position: center;
+}
+
+header.py-4 {
+  /*border-bottom: 2px solid black;*/
+  padding-bottom: 0.9rem !important;
+  padding-top: 0.9rem !important;
+}
+
+.navbar-expand-lg .navbar-nav .nav-item a.nav-link {
+    font-size: 20px !important;
+}
+
+nav a img {
+  width: 100% !important;
+  max-height: 55px;
+  max-width: 300px !important;
+}
+footer {
+}
+.post.index {
+  height: 95%;
+}
+.post-content.index {
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+.post-content.index h3 {
+  font-size: 4.5rem; *
+  font-weight: 400;
+}
+.post-content.index span {
+  font-size: 1.4rem;
+  font-weight: 400;
+}
+
+.content strong {
+    font-weight: 800 !important;
+}
+
+.content ul li::before {
+}
+
+.post-date {
+    height: 90px;
+    min-width: 90px;
+}
+
+.magnify-button {
+	color: white !important;
+}
+
+.rss-icon {
+    background: url('/images/rss-icon.webp');
+    background-size: 30px 30px;
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    object-fit: fill;
+}
+
+/* 
+ * Resize magnify view buttons
+ */
+.magnify-modal {
+    background: rgba(0,0,0,0.95) !important;
+}
+.magnify-button {
+    height: 50px;
+    width: 50px;
+}
+
+.magnify-button img {
+  filter: invert(1.0);
+  width: 28x;
+  height: 28px;
+  display: inline-block;
+  margin-top: -16px;
+}
+
+.magnify-button svg {
+    height: 32px;
+    width: 32px;
+    font-size: 2rem;
+}
+.magnify-footer, .magnify-header {
+    height: 50px;
+}
+.magnify-stage {
+    top: 50px;
+    bottom: 50px;
+}
+
+/* 
+ * Custom listing fluid style
+ */
+section .container-fluid {
+    width: 80% !important;
+    margin-top: 30px;
+}
+
+section .container-fluid .post-sm img.img-fluid {
+    object-fit: cover;
+    height: 55vh !important;
+    min-height: 20vw;
+}
+
+section .container-fluid .post-index img.img-fluid {
+    object-fit: cover;
+    height: 80vh !important;
+    max-height: 100vw !important;
+    object-center: center;
+}
+
+
+/* 
+ * Define accent color
+ */
+.content a, nav a:hover {
+    color: #1982c4 !important;
+}
+
+/*  
+ *  Define custom font for content, which is much more readable 
+ */
+.post-content.index span, .post-content.index h3, header.py-4, .pagination {
+    font-family: Mulish, sans-serif;
+    text-rendering: optimizeLegibility;
+}
+
+.content *, .content p, .acquisition-card {
+    font-family: Mulish, sans-serif !important;
+    text-rendering: optimizeLegibility;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+.content h1 {
+    font-size: 2rem;
+    line-height: 4rem;
+}
+
+.content h2 {
+    font-size: 1.5rem;
+    line-height: 3rem;
+}
+
+.content h1, .content h2, .content h3, .content h4, .content h5, .content h6 {
+    font-weight: 800 !important;
+    padding-top: 15px;
+}
+
+.social-icon {
+	font-family: themify;
+	font-size: 1rem;
+	padding-right: 5px;
+	padding-left: 5px;
+}
+
+/* 
+ * Acquisition card
+ */
+.acquisition-wrapper{
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+.acquisition-card {
+    margin-top: 10px;
+    border: 1px solid black;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    overflow: hidden;
+    background: url('/images/panel-background.webp');
+    max-width: 700px;
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.content table thead tr {
+    border-bottom: none;
+}
+
+.acquisition-card table {
+    margin-top: 5px;
+    margin-left: 15px;
+    margin: 20px;
+}
+
+.acquisition-card table tr td {
+    padding-top: 5px;
+    padding-right: 10px;
+}
+
+.acquisition-title {
+    display: inline-block;
+    font-weight: 400;
+    font-size: 1.1rem;
+    display: flex; 
+    height: 40px;
+    padding-left: 20px;
+    padding-top: 8px;
+}
+
+.acquisition-card .title {
+    font-weight: 800;
+    vertical-align: top;
+    padding-right: 40px;
+}
+
+.acquisition-card .value {
+    padding-left: 15px;
+}
+
+.post-content::before {
+	background: rgba(40, 40, 40, 0.4) !important;
+}
+
+
+/* 
+ * Hoverwrap for images
+ */
+.hoverwrap {
+  position: relative;
+}
+
+/* (B) RESPONSIVE IMAGE */
+.hoverwrap img { width: 100%; }
+
+/* (C) CAPTION */
+.hovercap {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  height: 100%;
+
+  /* (C1) DIMENSIONS */
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  /* (C2) POSITION */
+  position: absolute;
+  top: 0;
+  text-align: center;
+  font-size: 2rem;
+  vertical-align: middle;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+
+}
+
+/* (D) SHOW/HIDE */
+.hovercap {
+  visibility: none;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+.hoverwrap:hover .hovercap {
+  visibility: visible;
+  opacity: 1;
+}
+
+/* 
+ * Full screen modal
+ */
+.modal.modal-fullscreen .modal-dialog {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  max-width: none; 
+}
+
+.modal.modal-fullscreen .modal-content {
+  height: auto;
+  height: 100vh;
+  border-radius: 0;
+  border: none; 
+}
+
+.modal.modal-fullscreen .modal-body {
+  overflow-y: auto; 
+}
+
+/*
+ * Zoomable Image
+ */
+#zoomableImageDisplay {
+    height: 100%;
+    width: 100%;
+}
+
+#zoomableImageDialog .modal-body {
+    padding: 0 !important;
+}
+
+#seadragonToolbarDiv {
+    position: absolute !important;
+    top: 10px;
+    left: 10px;
+    z-index: 999999;
+    background: rgba(0,0,0,0.5);
+    font-size:0;
+}
+#zoomableImageDialog .modal-header {
+    height: 48px;   
+}
+.seadragonButton {
+    cursor: pointer;
+    padding: 0;
+    margin: 0;
+    width: 48px;
+    height: 48px;
+    display: inline-block;
+}
+
+#annotations-btn{
+    background: rgba(0,0,0,0.5);
+}
+
+.seadragonButton img {
+    width: 48px;
+    height: 48px;
+}
+
+button.close {
+    width: 48px;
+    padding: 11px !important;
+}
+
+#zoomableImageDialog svg {
+    shape-rendering: geometricPrecision; /* Attempt to fix svg firefox rendering */
+}
+
+.content #zoomableImageDialog svg text,
+.modal-open #zoomableImageDisplay svg text{
+    font-size: 3.5rem !important;
+    text-shadow: 1px 1px #000000;
+}
+
+
+@media (min-width:1400px) {
+ .container,
+ .container-lg,
+ .container-md,
+ .container-sm,
+ .container-xl {
+  max-width:1300px;
+ }
+
