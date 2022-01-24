@@ -3,7 +3,8 @@
 <section class="section-sm">
   <div class="container">
     <div class="text-center">
-      <h1 class="text-center display-3">Items are showing from {{.Title}}</h1>
+      <h1 class="text-center display-3">{{.Title | humanize }}</h1>
+      <a href="index.xml"><span class="rss-icon" /></a>
     </div>
   </div>
 </section>
@@ -15,12 +16,13 @@
       {{ range $index,$elements:= $paginator.Pages }}
       {{ if eq $index 0}}
       <div class="col-12 mb-4">
-        <div class="post">
+        <div class="post post-index">
           <img src="{{ .Params.Image | absURL }}" class="img-fluid w-100" alt="{{ .Title }}">
           <div class="post-content">
             <div class="post-date">
               <span>{{ .PublishDate.Format "02" }}</span>
               <span>{{ .PublishDate.Format "Jan" }}</span>
+              <span>{{ .PublishDate.Year }}</span>
             </div>
             <h2 class="post-title"><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
             <ul class="list-inline post-meta">
@@ -39,6 +41,7 @@
             <div class="post-date">
               <span>{{ .PublishDate.Format "02" }}</span>
               <span>{{ .PublishDate.Format "Jan" }}</span>
+              <span>{{ .PublishDate.Year }}</span>
             </div>
             <h2 class="post-title"><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
             <ul class="list-inline post-meta">

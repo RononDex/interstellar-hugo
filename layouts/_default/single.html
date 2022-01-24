@@ -2,12 +2,13 @@
 
 <section>
   <div class="container-fluid">
-    <div class="post">
+    <div class="post post-index">
       <img src="{{ .Params.Image | absURL }}" class="img-fluid w-100" alt="{{ .Title }}">
       <div class="post-content">
         <div class="post-date">
           <span>{{ .PublishDate.Format "02" }}</span>
           <span>{{ .PublishDate.Format "Jan" }}</span>
+          <span>{{ .PublishDate.Year }}</span>
         </div>
         <h2 class="post-title">{{ .Title }}</h2>
       </div>
@@ -21,6 +22,70 @@
       <div class="col-lg-8 mx-auto">
         <h1 class="mb-4">{{ .Title }}</h1>
         <div class="content">{{.Content}}</div>
+
+        {{ if (isset .Params "acquisition") }}
+		<div class="acquisition-wrapper">
+			<div class="acquisition-card">
+				<div class="acquisition-title">Acquisition-Info:</div>
+				<table>
+					{{ if (isset .Params.acquisition "telescope") }}
+					<tr>
+						<td class="title">Telescope:</td>
+						<td class="value">{{ .Params.acquisition.telescope }}</td>
+					</tr>
+					{{ end }}
+					{{ if (isset .Params.acquisition "mount") }}
+					<tr>
+						<td class="title">Mount:</td>
+						<td class="value">{{ .Params.acquisition.mount }}</td>
+					</tr>
+					{{ end }}
+					{{ if (isset .Params.acquisition "camera") }}
+					<tr>
+						<td class="title">Imaging Camera:</td>
+						<td class="value">{{ .Params.acquisition.camera }}</td>
+					</tr>
+					{{ end }}
+					{{ if (isset .Params.acquisition "guidingcamera") }}
+					<tr>
+						<td class="title">Guiding Camera:</td>
+						<td class="value">{{ .Params.acquisition.guidingCamera }}</td>
+					</tr>
+					{{ end }}
+					{{ if (isset .Params.acquisition "focal_length") }}
+					<tr>
+						<td class="title">Focal length:</td>
+						<td class="value">{{ .Params.acquisition.focal_length }}mm</td>
+					</tr>
+					{{ end }}
+					{{ if (isset .Params.acquisition "exposures") }}
+					<tr>
+						<td class="title">Exposures:</td>
+						<td class="value">
+							<span>
+							{{ range .Params.acquisition.exposures }}
+								{{ if .filter }}
+									<b>{{ .filter }}:</b> {{ .number }} x {{ .exposure_time }}s<br />
+								{{ else if .fps }}
+									{{ .number }} @ {{ .fps }} FPS
+								{{ else }}
+									{{ .number }} x {{ .exposure_time }}s<br />
+								{{ end }}
+							{{ end }}
+							</span>
+						</td>
+					</tr>
+					{{ end }}
+					{{ if (isset .Params.acquisition "total_exposure_time") }}
+					<tr>
+						<td class="title">Total exposure time:</td>
+						<td class="value">{{ .Params.acquisition.total_exposure_time }}</td>
+					</tr>
+					{{ end }}
+				</table>
+			</div>
+		</div>
+        {{ end }}
 
         <div class="text-center mt-5">
           <ul class="list-inline post-meta d-inline-block mr-4">
@@ -40,17 +105,5 @@
     </div>
   </div>
 </section>
-
-{{ if .Site.DisqusShortname }}
-<section class="section-sm bg-light">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-8 mx-auto">
-        {{ template "_internal/disqus.html" . }}
-      </div>
-    </div>
-  </div>
-</section>
-{{ end }}
 
 {{ end }}
