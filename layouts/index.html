@@ -13,6 +13,7 @@
             <div class="post-date">
               <span>{{ .PublishDate.Format "02" }}</span>
               <span>{{ .PublishDate.Format "Jan" }}</span>
+              <span>{{ .PublishDate.Year }}</span>
             </div>
             <h2 class="post-title"><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
             <ul class="list-inline post-meta">

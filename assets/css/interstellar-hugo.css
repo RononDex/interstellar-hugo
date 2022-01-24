@@ -75,10 +75,6 @@ footer {
     min-width: 90px;
 }
 
-.magnify-button {
-	color: white !important;
-}
-
 .rss-icon {
     background: url('/images/rss-icon.webp');
     background-size: 30px 30px;
@@ -86,38 +82,6 @@ footer {
     height: 30px;
     display: inline-block;
     object-fit: fill;
-}
-
-/* 
- * Resize magnify view buttons
- */
-.magnify-modal {
-    background: rgba(0,0,0,0.95) !important;
-}
-.magnify-button {
-    height: 50px;
-    width: 50px;
-}
-
-.magnify-button img {
-  filter: invert(1.0);
-  width: 28x;
-  height: 28px;
-  display: inline-block;
-  margin-top: -16px;
-}
-
-.magnify-button svg {
-    height: 32px;
-    width: 32px;
-    font-size: 2rem;
-}
-.magnify-footer, .magnify-header {
-    height: 50px;
-}
-.magnify-stage {
-    top: 50px;
-    bottom: 50px;
 }
 
 /* 
@@ -134,7 +98,8 @@ section .container-fluid .post-sm img.img-fluid {
     min-height: 20vw;
 }
 
-section .container-fluid .post-index img.img-fluid {
+section .container-fluid .post-index img.img-fluid,
+section .container-fluid .post img.img-fluid {
     object-fit: cover;
     height: 80vh !important;
     max-height: 100vw !important;
@@ -379,3 +344,4 @@ button.close {
   max-width:1300px;
  }
 
+ .content
