@@ -16,6 +16,10 @@
 
 A [hugo](https://gohugo.io/) theme specifically designed for photography, astronomy and blogging.
 
+This theme is based on the excellent [Persian Hugo Theme](https://github.com/gethugothemes/persian-hugo)
+It highly focusses on privacy. By default, 0 data from visitors is being captured and all fonts / assets are locally
+available (no google cnd or similar is used).
+
 <p align="center">
   <img src="https://github.com/RononDex/interstellar-hugo/blob/master/images/screenshot.png" alt="screenshot" width="100%">
 </p>
