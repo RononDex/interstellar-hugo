@@ -1,4 +1,4 @@
-<h1 align=center> Interstellar Hugo</h1>| <a target="_blank" href="https://interstellar-hugo-demo.netlify.app/" rel="nofollow">Demo</a>
+<h1 align=center> Interstellar Hugo| <a target="_blank" href="https://interstellar-hugo-demo.netlify.app/" rel="nofollow">Demo</a></h1>
 
 <p align=center>
   <a href="https://github.com/gohugoio/hugo/releases/tag/v0.70.0" alt="Contributors">
