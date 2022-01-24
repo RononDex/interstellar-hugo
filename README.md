@@ -1,4 +1,4 @@
-<h1 align=center> Persian Hugo | <a target="_blank" href="https://demo.gethugothemes.com/persian" rel="nofollow">Demo</a> | <a  target="_blank" href="https://lighthouse-dot-webdotdevsite.appspot.com//lh/html?url=https%3A%2F%2Fdemo.gethugothemes.com%2Fpersian%2F">Page Speed (58%)</a></h1>
+<h1 align=center> Interstellar Hugo | <a target="_blank" href="https://demo.gethugothemes.com/persian" rel="nofollow">Demo</a> | <a  target="_blank" href="https://lighthouse-dot-webdotdevsite.appspot.com//lh/html?url=https%3A%2F%2Fdemo.gethugothemes.com%2Fpersian%2F">Page Speed (58%)</a></h1>
 
 <p align=center>
   <a href="https://github.com/gohugoio/hugo/releases/tag/v0.70.0" alt="Contributors">

@@ -31,6 +31,12 @@ AUTHOR WEBSITE: https://themefisher.com
   {{ $styles := resources.Get "css/interstellar-hugo.css" | minify | fingerprint "sha512" }}
   <link rel="stylesheet" href="{{ $styles.Permalink }}" media="screen">
 
+  {{ if ( .Site.Params.darkmode )}}
+    {{ "<!-- Main Stylesheet from Interstellar-Hugo -->" | safeHTML }}
+    {{ $styles := resources.Get "css/darkmode.css" | minify | fingerprint "sha512" }}
+    <link rel="stylesheet" href="{{ $styles.Permalink }}" media="screen">
+  {{ end }}
+
   {{ "<!--Favicon-->" | safeHTML }}
   <link rel="shortcut icon" href="{{ `images/favicon.png` | absURL }}" type="image/x-icon">
   <link rel="icon" href="{{ `images/favicon.png` | absURL }}" type="image/x-icon">

@@ -14,11 +14,15 @@
 
 {{ "<!-- JS Plugins -->" | safeHTML }}
 {{ range .Site.Params.plugins.js}}
-<script src="{{ .link | absURL }}"></script>
+    <script src="{{ .link | absURL }}"></script>
 {{ end }}
 
-{{ "<!-- Main Script -->" | safeHTML }}
-{{ $script := resources.Get "js/script.js" | minify}}
+{{ "<!-- Main Script from Persian Hugo theme -->" | safeHTML }}
+{{ $script := resources.Get "js/script.js" | minify | fingerprint "sha512" }}
+<script src="{{ $script.Permalink }}"></script>
+
+{{ "<!-- Main Script from Interstellar Hugo theme -->" | safeHTML }}
+{{ $script := resources.Get "js/interstellar.js" | minify | fingerprint "sha512" }}
 <script src="{{ $script.Permalink }}"></script>
 
 {{ "<!-- google analitycs -->" | safeHTML }}

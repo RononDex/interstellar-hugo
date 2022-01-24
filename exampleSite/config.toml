@@ -1,7 +1,7 @@
 ######################## default configuration ####################
 baseURL = "https://www.example.com"
-title = "Persian"
-theme = "persian"
+title = "Interstellar"
+theme = "interstellar-hugo"
 languageName = "En"
 languageCode = "en-us"
 # post pagination
@@ -35,6 +35,12 @@ link = "plugins/search/fuse.min.js"
 link = "plugins/search/mark.js"
 [[params.plugins.js]]
 link = "plugins/search/search.js"
+[[params.plugins.js]]
+link = "plugins/openseadragon/openseadragon.min.js"
+[[params.plugins.js]]
+link = "plugins/openseadragon/plugins/openseadragon-svg-overlay.js"
+[[params.plugins.js]]
+link = "scripts/custom.js"
 
 
 ################################ menu ##################################
@@ -69,13 +75,16 @@ weight = 5
 logo = "images/logo.png"
 # Meta data
 description = "This is meta description"
-author = "Themefisher"
+author = "John Doe"
 # search  
 search = true
 # contact form action
 contact_form_action = "#" # contact form works with https://formspree.io
 # copyright
-copyright = "Designed By [Themefisher](https://themefisher.com/) & Developed By [Gethugothemes](https://gethugothemes.com/)"
+copyright = "Designed By [Themefisher](https://themefisher.com/) & Developed By [Gethugothemes](https://gethugothemes.com/) & Modified by [Tino Heuberger](https://theuberger.ch)"
+
+# Turn on darkmode
+darkmode = true
 
 # Preloader
 [params.preloader]
