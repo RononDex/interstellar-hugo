@@ -16,9 +16,10 @@
 
 A [hugo](https://gohugo.io/) theme specifically designed for photography, astronomy and blogging.
 
-This theme is based on the excellent [Persian Hugo Theme](https://github.com/gethugothemes/persian-hugo)
-It highly focusses on privacy. By default, 0 data from visitors is being captured and all fonts / assets are locally
-available (no google cnd or similar is used).
+This theme is based on the excellent [Persian Hugo Theme](https://github.com/gethugothemes/persian-hugo).
+
+The theme highly focusses on privacy. By default, 0 data from visitors is being captured and all fonts / assets are locally
+available (no google cnd or similar is used). It has built in optional support for Google Analytics though.
 
 <p align="center">
   <img src="https://github.com/RononDex/interstellar-hugo/blob/master/images/screenshot.png" alt="screenshot" width="100%">
@@ -40,6 +41,23 @@ available (no google cnd or similar is used).
 - Google page speed optimized ( 58% )
 - Open graph meta tag
 - Twitter card meta tag
+
+## Switch between darkmode and lightmode
+in `config.toml` set
+```
+[params]
+
+# Turn on darkmode
+darkmode = true
+```
+or 
+
+```
+[params]
+
+# Turn on darkmode
+darkmode = false
+```
 
 ## Custom Shortcodes
 ### Zoomable Image
