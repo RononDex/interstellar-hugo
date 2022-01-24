@@ -30,7 +30,8 @@ h4,
 h5,
 h6,
 .ti-menu,
-.search-box {
+.search-box,
+.text-dark {
   color: rgb(200, 195, 188) !important;
 }
 
@@ -120,3 +121,4 @@ nav a:hover {
     margin-top: 15px;
     margin-bottom: 15px;
 }
+
