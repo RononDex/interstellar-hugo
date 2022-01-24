@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg viewBox="0 0 2000 2000"
+ xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"  version="1.2" baseProfile="tiny">
+<title>PixInsight SVG Document</title>
+<desc>Generated with PixInsight Core 1.8.8-9 (x64)</desc>
+<defs>
+</defs>
+<g fill="none" stroke="black" stroke-width="1" fill-rule="evenodd" stroke-linecap="square" stroke-linejoin="bevel" >
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0,0)"
+font-family="Sans Serif" font-size="9" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#c8c8c8" stroke-opacity="0.501961" stroke-width="8" stroke-linecap="square" stroke-linejoin="miter" stroke-miterlimit="2" transform="matrix(1,0,0,1,0,0)"
+font-family="Sans Serif" font-size="9" font-weight="400" font-style="normal" 
+>
+<polyline fill="none" vector-effect="none" points="-130.088,2278.31 -138.825,2104.45 -147.837,1930.57 -157.081,1756.66 -166.732,1582.92 -176.774,1409.53 -187.4,1236.32 -198.879,1063.17 -211.041,890.068 -223.833,716.879 -237.29,543.546 -251.343,369.975 -265.859,196.216 -280.674,22.3697 " />
+<polyline fill="none" vector-effect="none" points="342.91,2252.81 334.149,2077.57 325.265,1902.3 316.009,1727.45 306.275,1552.84 295.989,1378.79 285.009,1204.68 273.435,1030.96 261.21,857.27 248.562,683.499 235.38,509.584 221.403,335.216 206.876,160.451 191.799,-14.8938 " />
+<polyline fill="none" vector-effect="none" points="815.069,2227.59 806.006,2051.12 796.478,1874.87 786.637,1699.28 776.511,1523.76 765.836,1348.81 754.828,1173.88 743.045,999.093 731.029,824.759 718.373,650.098 705.252,475.042 691.623,299.723 677.443,123.896 662.9,-52.2592 " />
+<polyline fill="none" vector-effect="none" points="1286.25,2203.86 1276.48,2026.24 1266.61,1848.74 1256.34,1671.86 1245.77,1495.42 1234.75,1319.22 1223.38,1143.38 1211.56,967.544 1199.55,791.782 1187,615.856 1174.06,439.813 1160.8,263.176 1146.93,86.3925 1132.97,-91.04 " />
+<polyline fill="none" vector-effect="none" points="1758.69,2181.65 1748.4,2002.76 1737.67,1823.93 1727,1645.45 1715.88,1467.7 1704.64,1290.23 1693.05,1112.85 1681.19,935.696 1669,758.499 1656.45,581.206 1643.72,403.611 1630.75,225.682 1617.45,47.4644 1603.84,-131.211 " />
+<polyline fill="none" vector-effect="none" points="-130.088,2278.31 122.793,2264.74 375.632,2251.03 628.241,2237.43 880.267,2224.22 1132.08,2211.47 1384.24,2199.1 1636.79,2187.21 1889.71,2175.7 2142.78,2163.88 " />
+<polyline fill="none" vector-effect="none" points="-153.876,1816.27 99.0146,1800.87 351.925,1785.37 603.684,1770.33 855.126,1755.56 1106.24,1741.27 1357.36,1726.89 1608.83,1713.29 1861.52,1699.75 2114.6,1686.36 " />
+<polyline fill="none" vector-effect="none" points="-180.027,1355.06 72.9278,1338.51 325.096,1321.94 576.449,1305.97 827.385,1289.61 1077.81,1273.81 1328.68,1257.83 1579.75,1242.04 1831.79,1226.55 2084.16,1210.34 " />
+<polyline fill="none" vector-effect="none" points="-210.688,894.972 42.0452,877.566 294.166,859.962 545.487,842.779 796.263,825.204 1046.64,807.532 1297.16,789.903 1548.51,771.818 1799.72,754.241 2052.23,736.052 " />
+<polyline fill="none" vector-effect="none" points="-246.067,434.416 6.80063,415.916 259.242,397.633 510.689,378.753 761.711,359.903 1012.3,340.639 1263.21,321.372 1514.2,301.38 1766.1,281.408 2018.9,261.11 " />
+</g>
+
+<g fill="none" stroke="#ff8080" stroke-opacity="1" stroke-width="8" stroke-linecap="square" stroke-linejoin="miter" stroke-miterlimit="2" transform="matrix(1,0,0,1,0,0)"
+font-family="DejaVu Sans" font-size="128" font-weight="400" font-style="normal" 
+>
+<ellipse cx="535.326" cy="64.1842" rx="176.593" ry="176.593"/>
+<ellipse cx="702.274" cy="344.876" rx="235.458" ry="235.458"/>
+</g>
+
+<g fill="none" stroke="#ff8080" stroke-opacity="1" stroke-width="8" stroke-linecap="square" stroke-linejoin="miter" stroke-miterlimit="2" transform="matrix(1,0,0,1,0,0)"
+font-family="DejaVu Sans" font-size="128" font-weight="400" font-style="normal" 
+>
+<polyline fill="none" vector-effect="none" points="1468.03,1705.79 1508.03,1705.79 " />
+<polyline fill="none" vector-effect="none" points="1563.03,1705.79 1523.03,1705.79 " />
+<polyline fill="none" vector-effect="none" points="1515.53,1753.29 1515.53,1713.29 " />
+<polyline fill="none" vector-effect="none" points="1515.53,1658.29 1515.53,1698.29 " />
+<polyline fill="none" vector-effect="none" points="1574.36,1784.97 1614.36,1784.97 " />
+<polyline fill="none" vector-effect="none" points="1669.36,1784.97 1629.36,1784.97 " />
+<polyline fill="none" vector-effect="none" points="1621.86,1832.47 1621.86,1792.47 " />
+<polyline fill="none" vector-effect="none" points="1621.86,1737.47 1621.86,1777.47 " />
+</g>
+
+<g fill="none" stroke="#f08080" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="miter" stroke-miterlimit="2" transform="matrix(1,0,0,1,0,0)"
+font-family="DejaVu Sans" font-size="64" font-weight="700" font-style="normal" 
+>
+<text fill="#f08080" fill-opacity="1" stroke="none" xml:space="preserve" x="373.313" y="162.684" font-family="DejaVu Sans" font-size="64" font-weight="700" font-style="normal" 
+ >NGC6193</text>
+<text fill="#f08080" fill-opacity="1" stroke="none" xml:space="preserve" x="327.766" y="319.876" font-family="DejaVu Sans" font-size="64" font-weight="700" font-style="normal" 
+ >NGC6188</text>
+<text fill="#f08080" fill-opacity="1" stroke="none" xml:space="preserve" x="1141.02" y="1680.79" font-family="DejaVu Sans" font-size="64" font-weight="700" font-style="normal" 
+ >NGC6165</text>
+<text fill="#f08080" fill-opacity="1" stroke="none" xml:space="preserve" x="1458.84" y="1883.47" font-family="DejaVu Sans" font-size="64" font-weight="700" font-style="normal" 
+ >NGC6164</text>
+</g>
+
+<g fill="none" stroke="#00ff00" stroke-opacity="1" stroke-width="4" stroke-linecap="square" stroke-linejoin="miter" stroke-miterlimit="2" transform="matrix(1,0,0,1,0,0)"
+font-family="DejaVu Sans" font-size="64" font-weight="700" font-style="normal" 
+>
+<polyline fill="none" vector-effect="none" points="631.896,800.938 651.896,800.938 " />
+<polyline fill="none" vector-effect="none" points="686.896,800.938 666.896,800.938 " />
+<polyline fill="none" vector-effect="none" points="659.396,828.438 659.396,808.438 " />
+<polyline fill="none" vector-effect="none" points="659.396,773.438 659.396,793.438 " />
+<polyline fill="none" vector-effect="none" points="1556.64,1735.61 1576.64,1735.61 " />
+<polyline fill="none" vector-effect="none" points="1611.64,1735.61 1591.64,1735.61 " />
+<polyline fill="none" vector-effect="none" points="1584.14,1763.11 1584.14,1743.11 " />
+<polyline fill="none" vector-effect="none" points="1584.14,1708.11 1584.14,1728.11 " />
+</g>
+
+<g fill="none" stroke="#00ff00" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="miter" stroke-miterlimit="2" transform="matrix(1,0,0,1,0,0)"
+font-family="DejaVu Sans" font-size="48" font-weight="400" font-style="normal" 
+>
+<text fill="#00ff00" fill-opacity="1" stroke="none" xml:space="preserve" x="359.891" y="789.938" font-family="DejaVu Sans" font-size="48" font-weight="400" font-style="normal" 
+ >PK336-01.1</text>
+<text fill="#00ff00" fill-opacity="1" stroke="none" xml:space="preserve" x="1613.64" y="1724.61" font-family="DejaVu Sans" font-size="48" font-weight="400" font-style="normal" 
+ >PK336-00.1</text>
+</g>
+
+<g fill="none" stroke="#c8c8c8" stroke-opacity="0.501961" stroke-width="1" stroke-linecap="square" stroke-linejoin="miter" stroke-miterlimit="2" transform="matrix(1,0,0,1,0,0)"
+font-family="DejaVu Sans" font-size="48" font-weight="400" font-style="normal" 
+>
+<text fill="#c8c8c8" fill-opacity="0.501961" stroke="none" xml:space="preserve" x="-180.016" y="1412.06" font-family="DejaVu Sans" font-size="48" font-weight="400" font-style="normal" 
+ >−49°20′</text>
+<text fill="#c8c8c8" fill-opacity="0.501961" stroke="none" xml:space="preserve" x="292.563" y="1381.03" font-family="DejaVu Sans" font-size="48" font-weight="400" font-style="normal" 
+ >−49°</text>
+<text fill="#c8c8c8" fill-opacity="0.501961" stroke="none" xml:space="preserve" x="762.422" y="1350.85" font-family="DejaVu Sans" font-size="48" font-weight="400" font-style="normal" 
+ >−48°40′</text>
+<text fill="#c8c8c8" fill-opacity="0.501961" stroke="none" xml:space="preserve" x="1231.31" y="1320.8" font-family="DejaVu Sans" font-size="48" font-weight="400" font-style="normal" 
+ >−48°20′</text>
+<text fill="#c8c8c8" fill-opacity="0.501961" stroke="none" xml:space="preserve" x="1701.02" y="1291.52" font-family="DejaVu Sans" font-size="48" font-weight="400" font-style="normal" 
+ >−48°</text>
+<text fill="#c8c8c8" fill-opacity="0.501961" stroke="none" xml:space="preserve" x="815.063" y="2227.59" font-family="DejaVu Sans" font-size="48" font-weight="400" font-style="normal" 
+ >16h32m</text>
+<text fill="#c8c8c8" fill-opacity="0.501961" stroke="none" xml:space="preserve" x="790.047" y="1759.41" font-family="DejaVu Sans" font-size="48" font-weight="400" font-style="normal" 
+ >16h34m</text>
+<text fill="#c8c8c8" fill-opacity="0.501961" stroke="none" xml:space="preserve" x="762.422" y="1293.85" font-family="DejaVu Sans" font-size="48" font-weight="400" font-style="normal" 
+ >16h36m</text>
+<text fill="#c8c8c8" fill-opacity="0.501961" stroke="none" xml:space="preserve" x="731.375" y="829.698" font-family="DejaVu Sans" font-size="48" font-weight="400" font-style="normal" 
+ >16h38m</text>
+<text fill="#c8c8c8" fill-opacity="0.501961" stroke="none" xml:space="preserve" x="696.75" y="364.83" font-family="DejaVu Sans" font-size="48" font-weight="400" font-style="normal" 
+ >16h40m</text>
+</g>
+</g>
+</svg>
