@@ -5,10 +5,10 @@
     <img src="https://img.shields.io/static/v1?label=min-HUGO-version&message=0.70.0&color=f00&logo=hugo" />
   </a>
 
-  <a href="https://github.com/gethugothemes/persian-hugo/blob/master/LICENSE">
-    <img src="https://img.shields.io/github/license/gethugothemes/persian-hugo" alt="license"></a>
+  <a href="https://github.com/RononDex/interstellar-hugo/blob/master/LICENSE">
+    <img src="https://img.shields.io/github/license/RononDex/interstellar-hugo" alt="license"></a>
 
-  <a href="https://github.com/gethugothemes/persian-hugo/graphs/contributors">
+  <a href="https://github.com/RononDex/interstellar-hugo/graphs/contributors">
     <img src="https://img.shields.io/github/contributors/RononDex/interstellar-hugo" alt="contributors"></a>
 </p>
 
