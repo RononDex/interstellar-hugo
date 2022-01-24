@@ -92,7 +92,7 @@ section .container-fluid {
     margin-top: 30px;
 }
 
-section .container-fluid .post-sm img.img-fluid {
+section .container-fluid .post.post-sm img.img-fluid {
     object-fit: cover;
     height: 55vh !important;
     min-height: 20vw;
