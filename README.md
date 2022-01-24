@@ -54,7 +54,7 @@ or
 ```
 [params]
 
-# Turn on darkmode
+# Turn off darkmode
 darkmode = false
 ```
 
