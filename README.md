@@ -29,7 +29,7 @@ available (no google cnd or similar is used). It has built in optional support f
 ## Features
 - Tile-based image viewer for high-res image zooming
 - SVG Overlay on images for annotations
-- darkmode
+- darkmode / lightmode
 - custom shortcodes
 - Google analytics  support
 - CSS and JS bundle with hugo pipe
@@ -38,7 +38,6 @@ available (no google cnd or similar is used). It has built in optional support f
 - Contact form Support
 - Search by fuse.js
 - GDPR consent enable
-- Google page speed optimized ( 58% )
 - Open graph meta tag
 - Twitter card meta tag
 
