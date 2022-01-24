@@ -1,4 +1,4 @@
-<h1 align=center> Interstellar Hugo</h1>
+<h1 align=center> Interstellar Hugo</h1>| <a target="_blank" href="https://interstellar-hugo-demo.netlify.app/" rel="nofollow">Demo</a>
 
 <p align=center>
   <a href="https://github.com/gohugoio/hugo/releases/tag/v0.70.0" alt="Contributors">
@@ -13,6 +13,8 @@
 </p>
 
 ---
+
+A [hugo](https://gohugo.io/) theme specifically designed for photography, astronomy and blogging.
 
 <p align="center">
   <img src="https://github.com/RononDex/interstellar-hugo/blob/master/images/screenshot.png" alt="screenshot" width="100%">
