@@ -19,7 +19,7 @@ A [hugo](https://gohugo.io/) theme specifically designed for photography, astron
 This theme is based on the excellent [Persian Hugo Theme](https://github.com/gethugothemes/persian-hugo).
 
 The theme highly focusses on privacy. By default, 0 data from visitors is being captured and all fonts / assets are locally
-available (no google cnd or similar is used). It has built in optional support for Google Analytics though.
+available (no google cdn or similar is used). It has built in optional support for Google Analytics though.
 
 <p align="center">
   <img src="https://github.com/RononDex/interstellar-hugo/blob/master/images/screenshot.png" alt="screenshot" width="100%">
