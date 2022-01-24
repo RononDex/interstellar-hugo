@@ -82,6 +82,7 @@ footer {
     height: 30px;
     display: inline-block;
     object-fit: fill;
+    margin-top: 10px;
 }
 
 /* 
@@ -344,4 +345,6 @@ button.close {
   max-width:1300px;
  }
 
- .content
+.search-wrapper button {
+    margin-right: 32px !important;
+}
