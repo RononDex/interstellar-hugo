@@ -348,3 +348,13 @@ button.close {
 .search-wrapper button {
     margin-right: 32px !important;
 }
+
+#zoomPercentDisplay {
+    position: absolute !important;
+    top: 10px;
+    right: 10px;
+    z-index: 999999;
+    background: rgba(0,0,0,0.5);
+    font-size:1rem;
+    padding: 10px;
+}

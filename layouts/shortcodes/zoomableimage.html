@@ -57,6 +57,7 @@
             <img src="/plugins/openseadragon/images/fullpage_rest.png" />
           </div>
         </div>
+        <div id="zoomPercentDisplay"></div>
         <div id="zoomableImageDisplay"></div>
       </div>
     </div>
@@ -86,6 +87,7 @@
       });
 
       document.activeSeadragonViewer = viewer;
+      addZoomDisplay(viewer);
   });
 
   var svgOverlayActive = false;
