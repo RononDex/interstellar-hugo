@@ -16,7 +16,7 @@
       {{ range $index,$elements:= $paginator.Pages }}
       {{ if eq $index 0}}
       <div class="col-12 mb-4">
-        <div class="post post-index">
+        <div class="post post-index img-post-entry">
           <img src="{{ .Params.Image | absURL }}" class="img-fluid w-100" alt="{{ .Title }}">
           <div class="post-content">
             <div class="post-date">
@@ -24,7 +24,7 @@
               <span>{{ .PublishDate.Format "Jan" }}</span>
               <span>{{ .PublishDate.Year }}</span>
             </div>
-            <h2 class="post-title"><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+            <h2 class="post-title"><a href="{{ .Permalink }}" class="permalink">{{ .Title }}</a></h2>
             <ul class="list-inline post-meta">
               <li class="list-inline-item"><i class="ti-tag"></i></li>
               {{ range .Params.Tags }}
@@ -35,7 +35,7 @@
       </div>
       {{ else }}
       <div class="col-md-6 mb-4">
-        <div class="post post-sm">
+        <div class="post post-sm img-post-entry">
           <img src="{{ .Params.Image | absURL }}" class="img-fluid w-100" alt="{{ .Title }}">
           <div class="post-content">
             <div class="post-date">
@@ -43,7 +43,7 @@
               <span>{{ .PublishDate.Format "Jan" }}</span>
               <span>{{ .PublishDate.Year }}</span>
             </div>
-            <h2 class="post-title"><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+            <h2 class="post-title"><a href="{{ .Permalink }}" class="permalink">{{ .Title }}</a></h2>
             <ul class="list-inline post-meta">
               <li class="list-inline-item"><i class="ti-tag"></i></li>
               {{ range .Params.Tags }}
