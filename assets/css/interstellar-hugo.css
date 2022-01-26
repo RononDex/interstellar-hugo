@@ -337,12 +337,13 @@ button.close {
 
 
 @media (min-width:1400px) {
- .container,
- .container-lg,
- .container-md,
- .container-sm,
- .container-xl {
-  max-width:1300px;
+    .container,
+    .container-lg,
+    .container-md,
+    .container-sm,
+    .container-xl {
+    max-width:1300px;
+    }
  }
 
 .search-wrapper button {
