@@ -352,7 +352,7 @@ button.close {
 
 #zoomPercentDisplay {
     position: absolute !important;
-    top: 10px;
+    bottom: 10px;
     right: 10px;
     z-index: 999999;
     background: rgba(0,0,0,0.5);
