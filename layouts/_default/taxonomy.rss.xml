@@ -30,7 +30,7 @@
             {{ with .Site.Author.email }}<author>{{.}}{{ with $.Site.Author.name }} ({{.}}){{end}}</author>{{end}}
             <guid>{{ .Permalink }}</guid>
             {{ if .Image }}
-                <media:content type="image/jpeg" medium="image" url="{{ .Site.BaseURL}}news/images/{{ .Params.image | html }}" />
+                <media:content type="image/jpeg" medium="image" url="{{ .Site.BaseURL}}{ .Params.image | html }}" />
             {{ end }}
             <description>{{ .Description | html }}</description>
         </item>
