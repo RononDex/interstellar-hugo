@@ -1,4 +1,9 @@
 {{ $_hugo_config := `{ "version": 1 }` }}
+{{ if isset .Scratch "numberOfImageDialogs" }}
+	{{ $.Scratch.Set "numberOfImageDialogs" (add ($.Scratch.Get "numberOfImageDialogs") 1) }}
+{{ else }}
+	{{ $.Scratch.Set "numberOfImageDialogs" 1 }}
+{{ end }}
 
 <div class="zoomableImage">
   <h4>Zoomable, full-resolution image:</h4>
@@ -6,7 +11,7 @@
     <div
       class="hovercap"
       data-toggle="modal"
-      data-target="#zoomableImageDialog"
+	  data-target="#zoomableImageDialog-{{ $.Scratch.Get "numberOfImageDialogs" }}"
     >
       Click me
     </div>
@@ -16,7 +21,7 @@
 
 <div
   class="modal fade modal-fullscreen"
-  id="zoomableImageDialog"
+  id="zoomableImageDialog-{{ $.Scratch.Get "numberOfImageDialogs" }}"
   tabindex="-1"
   aria-labelledby="zoomableImage"
   aria-hidden="true"
@@ -58,7 +63,7 @@
           </div>
         </div>
         <div id="zoomPercentDisplay"></div>
-        <div id="zoomableImageDisplay"></div>
+		<div id="zoomableImageDisplay{{ $.Scratch.Get "numberOfImageDialogs" }}"></div>
       </div>
     </div>
   </div>
@@ -70,8 +75,8 @@
   }
 
   functionsAfterDocumentReady.push(function () {
-      var viewer = OpenSeadragon({
-          id: "zoomableImageDisplay",
+	  var viewer = OpenSeadragon({
+		  id: "zoomableImageDisplay{{ $.Scratch.Get "numberOfImageDialogs" }}",
           autoHideControls: false,
           imageSmoothingEnabled: false,
           showNavigator: false,
