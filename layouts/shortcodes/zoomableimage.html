@@ -39,7 +39,7 @@
         </button>
       </div>
       <div class="modal-body">
-        <div id="seadragonToolbarDiv">
+          <div id="seadragonToolbarDiv-{{ $.Scratch.Get "numberOfImageDialogs" }}">
           <div id="zoom-in-btn" class="seadragonButton">
             <img src="/plugins/openseadragon/images/zoomin_rest.png" />
           </div>
@@ -76,19 +76,19 @@
 
   functionsAfterDocumentReady.push(function () {
 	  var viewer = OpenSeadragon({
-		  id: "zoomableImageDisplay{{ $.Scratch.Get "numberOfImageDialogs" }}",
+          id: "zoomableImageDisplay{{ $.Scratch.Get "numberOfImageDialogs" }}",
           autoHideControls: false,
           imageSmoothingEnabled: false,
           showNavigator: false,
           defaultZoomLevel: 0,
-          toolbar: 'seadragonToolbarDiv',
+          toolbar: 'seadragonToolbarDiv-{{ $.Scratch.Get "numberOfImageDialogs" }}',
           zoomInButton: "zoom-in-btn",
           zoomOutButton: "zoom-out-btn",
           homeButton: "home-btn",
           fullPageButton: "full-page-btn",
           prefixUrl: '/plugins/openseadragon/images/',
           visibilityRatio: 0.9,
-          tileSources: "{{ .Get "folderPath" }}/tiled_photo.dzi",
+          tileSources: "{{ print (.Get "folderPath") }}/tiled_photo.dzi",
       });
 
       document.activeSeadragonViewer = viewer;

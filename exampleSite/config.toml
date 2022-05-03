@@ -39,8 +39,6 @@ link = "plugins/search/search.js"
 link = "plugins/openseadragon/openseadragon.min.js"
 [[params.plugins.js]]
 link = "plugins/openseadragon/plugins/openseadragon-svg-overlay.js"
-[[params.plugins.js]]
-link = "scripts/custom.js"
 
 
 ################################ menu ##################################
