@@ -25,6 +25,10 @@
 {{ $script := resources.Get "js/interstellar.js" | minify | fingerprint "sha512" }}
 <script src="{{ $script.Permalink }}"></script>
 
+{{ "<!-- ImageViewer Script from Interstellar Hugo theme -->" | safeHTML }}
+{{ $script := resources.Get "js/astroImageViewer.js" | fingerprint "sha512" }}
+<script src="{{ $script.Permalink }}"></script>
+
 {{ "<!-- google analitycs -->" | safeHTML }}
 {{ with .Site.Params.google_analitycs_id}}
 <script>
