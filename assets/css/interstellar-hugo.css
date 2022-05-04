@@ -282,16 +282,16 @@ section .container-fluid .post img.img-fluid {
 /*
  * Zoomable Image
  */
-#zoomableImageDisplay {
+.zoomableImageDisplay {
     height: 100%;
     width: 100%;
 }
 
-#zoomableImageDialog .modal-body {
+.zoomableImageDialog .modal-body {
     padding: 0 !important;
 }
 
-#seadragonToolbarDiv {
+.seadragonToolbarDiv {
     position: absolute !important;
     top: 10px;
     left: 10px;
@@ -299,7 +299,7 @@ section .container-fluid .post img.img-fluid {
     background: rgba(0,0,0,0.5);
     font-size:0;
 }
-#zoomableImageDialog .modal-header {
+.zoomableImageDialog .modal-header {
     height: 48px;   
 }
 .seadragonButton {
@@ -311,7 +311,7 @@ section .container-fluid .post img.img-fluid {
     display: inline-block;
 }
 
-#annotations-btn{
+.annotations-btn{
     background: rgba(0,0,0,0.5);
 }
 
@@ -325,12 +325,12 @@ button.close {
     padding: 11px !important;
 }
 
-#zoomableImageDialog svg {
+.zoomableImageDialog svg {
     shape-rendering: geometricPrecision; /* Attempt to fix svg firefox rendering */
 }
 
-.content #zoomableImageDialog svg text,
-.modal-open #zoomableImageDisplay svg text{
+.content .zoomableImageDialog svg text,
+.modal-open .zoomableImageDisplay svg text{
     font-size: 3.5rem !important;
     text-shadow: 1px 1px #000000;
 }
@@ -350,7 +350,7 @@ button.close {
     margin-right: 32px !important;
 }
 
-#zoomPercentDisplay {
+.zoomPercentDisplay {
     position: absolute !important;
     bottom: 10px;
     right: 10px;
