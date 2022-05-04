@@ -22,8 +22,7 @@ class AstroImageViewer {
       annotationButton =
         "			<div" +
         "				id='annotations-btn{{number}}'" +
-        "				class='annotations-btn seadragonButton'" +
-        "				onclick='toggleSvgOverlay()'>" + //TODO
+        "				class='annotations-btn seadragonButton'>" +
         "				<img src='/images/annotations-icon.webp' />" +
         "			</div>";
     }
@@ -62,7 +61,7 @@ class AstroImageViewer {
       "						<div class='seadragonToolbarDiv' id='seadragonToolbarDiv{{number}}'>" +
       "							<div id='zoom-in-btn{{number}}' class='seadragonButton'>" +
       "								<img src='/plugins/openseadragon/images/zoomin_rest.png' />" +
-      "							</div>" +
+       "							</div>" +
       "							<div id='zoom-out-btn{{number}}' class='seadragonButton'>" +
       "								<img src='/plugins/openseadragon/images/zoomout_rest.png' />" +
       "							</div>" +
@@ -87,6 +86,9 @@ class AstroImageViewer {
       .replaceAll("{{annotationButton}}", annotationButton);
 
     $(this.container).append(html);
+
+    // Add event handlers
+    $(this.container).on("click", ".annotations-btn", function() { this.toggleSvgOverlay() }.bind(this));
   }
 
   initViewer() {
@@ -112,7 +114,7 @@ class AstroImageViewer {
   svgOverlayActive = false;
 
   toggleSvgOverlay() {
-    if (svgOverlayActive) {
+    if (this.svgOverlayActive) {
       var overlay = this.viewer.svgOverlay();
       var node = overlay.node();
       while (node.hasChildNodes()) {
@@ -128,15 +130,24 @@ class AstroImageViewer {
   }
 
   addZoomDisplay() {
-    this.viewer.addHandler("resize", function () {
-      this.updatePercentageZoom();
-    }.bind(this));
-    this.viewer.addHandler("animation", function () {
-      this.updatePercentageZoom();
-    }.bind(this));
-    this.viewer.addHandler("open", function () {
-      this.updatePercentageZoom();
-    }.bind(this));
+    this.viewer.addHandler(
+      "resize",
+      function () {
+        this.updatePercentageZoom();
+      }.bind(this)
+    );
+    this.viewer.addHandler(
+      "animation",
+      function () {
+        this.updatePercentageZoom();
+      }.bind(this)
+    );
+    this.viewer.addHandler(
+      "open",
+      function () {
+        this.updatePercentageZoom();
+      }.bind(this)
+    );
   }
 
   addSvgOverlayToOpenSeadragonViewer(svgPath) {
