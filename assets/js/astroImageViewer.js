@@ -28,7 +28,7 @@ class AstroImageViewer {
     }
     var html =
       "		<div class='zoomableImage'>" +
-      "		<h4>Zoomable, full-resolution image:</h4>" +
+      "		<h4>Zoomable, full-resolution image (click on the image):</h4>" +
       "			<div class='hoverwrap'>" +
       "				<div" +
       "					class='hovercap'" +
