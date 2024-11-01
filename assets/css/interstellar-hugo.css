@@ -55,7 +55,7 @@ footer {
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 .post-content.index h3 {
-  font-size: 4.5rem; *
+  font-size: 4.5rem; 
   font-weight: 400;
 }
 .post-content.index span {
@@ -65,9 +65,6 @@ footer {
 
 .content strong {
     font-weight: 800 !important;
-}
-
-.content ul li::before {
 }
 
 .post-date {
@@ -123,7 +120,7 @@ section .container-fluid .post img.img-fluid {
     text-rendering: optimizeLegibility;
 }
 
-.content *, .content p, .acquisition-card {
+.content, .content p, .content h1, .content h2, .content h3, .content h4, .acquisition-card {
     font-family: Mulish, sans-serif !important;
     text-rendering: optimizeLegibility;
     font-size: 1.1rem;
@@ -329,11 +326,11 @@ button.close {
     shape-rendering: geometricPrecision; /* Attempt to fix svg firefox rendering */
 }
 
-.content .zoomableImageDialog svg text,
-.modal-open .zoomableImageDisplay svg text{
-    font-size: 3.5rem !important;
-    text-shadow: 1px 1px #000000;
-}
+/* .content .zoomableImageDialog svg text, */
+/* .modal-open .zoomableImageDisplay svg text{ */
+/*     font-size: 3.5rem !important; */
+/*     text-shadow: 1px 1px #000000; */
+/* } */
 
 
 @media (min-width:1400px) {
