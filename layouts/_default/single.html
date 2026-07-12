@@ -36,6 +36,10 @@
               href="{{ `author/` | relLangURL }}{{ .Params.author | urlize }}/">{{ .Params.author }}</a></span>
           {{ end }}
         </div>
+
+        {{ if site.Params.open_remark.enable }}
+        {{ partial "open-remark.html" . }}
+        {{ end }}
       </div>
     </div>
   </div>
