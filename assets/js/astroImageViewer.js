@@ -32,8 +32,8 @@ class AstroImageViewer {
       "			<div class='hoverwrap'>" +
       "				<div" +
       "					class='hovercap'" +
-      "					data-toggle='modal'" +
-      "				    data-target='#zoomableImageDialog{{number}}'>" +
+      "					data-bs-toggle='modal'" +
+      "				    data-bs-target='#zoomableImageDialog{{number}}'>" +
       "					Click me" +
       "				</div>" +
       "				<img src='{{folderPath}}/thumb.webp' />" +
@@ -61,7 +61,7 @@ class AstroImageViewer {
       "						<div class='seadragonToolbarDiv' id='seadragonToolbarDiv{{number}}'>" +
       "							<div id='zoom-in-btn{{number}}' class='seadragonButton'>" +
       "								<img src='/plugins/openseadragon/images/zoomin_rest.png' />" +
-       "							</div>" +
+      "							</div>" +
       "							<div id='zoom-out-btn{{number}}' class='seadragonButton'>" +
       "								<img src='/plugins/openseadragon/images/zoomout_rest.png' />" +
       "							</div>" +
@@ -88,7 +88,13 @@ class AstroImageViewer {
     $(this.container).append(html);
 
     // Add event handlers
-    $(this.container).on("click", ".annotations-btn", function() { this.toggleSvgOverlay() }.bind(this));
+    $(this.container).on(
+      "click",
+      ".annotations-btn",
+      function () {
+        this.toggleSvgOverlay();
+      }.bind(this)
+    );
   }
 
   initViewer() {
