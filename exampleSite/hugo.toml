@@ -1,0 +1,73 @@
+######################## default configuration ####################
+baseURL = "https://www.example.com"
+title = "Interstellar"
+theme = "interstellar-hugo"
+languageName = "En"
+languageCode = "en-us"
+# post pagination
+paginate = "5"
+# disqus short name
+disqusShortname = "" # get your shortname form here : https://disqus.com
+
+############################# output ##############################
+[outputs]
+home = ["HTML", "RSS", "json"]
+
+# render unsafe html
+[markup.goldmark.renderer]
+unsafe = true
+
+############################# Plugins ##############################
+# CSS Plugins
+[[params.plugins.css]]
+link = "plugins/bootstrap/bootstrap.min.css"
+[[params.plugins.css]]
+link = "plugins/themify-icons/themify-icons.css"
+
+# JS Plugins
+[[params.plugins.js]]
+link = "plugins/jQuery/jquery.min.js"
+[[params.plugins.js]]
+link = "plugins/bootstrap/bootstrap.min.js"
+[[params.plugins.js]]
+link = "plugins/search/fuse.min.js"
+[[params.plugins.js]]
+link = "plugins/search/mark.js"
+[[params.plugins.js]]
+link = "plugins/search/search.js"
+[[params.plugins.js]]
+link = "plugins/openseadragon/openseadragon.min.js"
+[[params.plugins.js]]
+link = "plugins/openseadragon/plugins/openseadragon-svg-overlay.js"
+
+#################### default parameters ################################
+[params]
+logo = "images/logo.png"
+# Meta data
+description = "This is meta description"
+author = "John Doe"
+# search  
+search = true
+# contact form action
+contact_form_action = "#" # contact form works with https://formspree.io
+# copyright
+copyright = "Designed By [Themefisher](https://themefisher.com/) & Developed By [Gethugothemes](https://gethugothemes.com/) & Modified by [Tino Heuberger](https://theuberger.ch)"
+
+# Turn on darkmode
+darkmode = true
+
+# Preloader
+[params.preloader]
+enable = true
+preloader = "" # use jpg, png, svg or gif format.
+
+# cookies
+[params.cookies]
+enable = true
+expire_days = 2
+
+# OpenRemark Comments
+[params.open_remark]
+enable = true
+site_key = "cmqnb3wd5000104kww7862ku4" # your site key from the OpenRemark dashboard
+embed_url = "https://open-remark.zeon.studio/embed.js"

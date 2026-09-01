@@ -1,0 +1,8 @@
+######################## default configuration ####################
+baseURL = "/"
+title = "Persian"
+theme = "persian-hugo"
+label = "En"
+locale = "en-us"
+# post pagination
+pagination.pagerSize = "5"
